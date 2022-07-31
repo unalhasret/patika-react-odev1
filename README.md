@@ -1,2 +1,5 @@
-# patika-react-odev1
-Patika.dev React Ödev 1
+# Patika.dev React Dersi Ödevi
+React eğitimine geçmeden önce ES6 kullanımı
+- Async-await kullanımı
+- Promise kullanımı
+
