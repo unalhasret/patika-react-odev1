@@ -1,0 +1,23 @@
+{
+  "name": "patika-react-odev1",
+  "version": "1.0.0",
+  "description": "Patika.dev React Ödev 1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unalhasret/patika-react-odev1.git"
+  },
+  "author": "Hasret Ünal <s.hasretunal@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unalhasret/patika-react-odev1/issues"
+  },
+  "homepage": "https://github.com/unalhasret/patika-react-odev1#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
