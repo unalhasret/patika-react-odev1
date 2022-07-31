@@ -9,7 +9,7 @@ const getUser = (userId) => {
 
 const getPost = (userId) => {
     return new Promise (async (resolve, reject) => {
-        const {data} = await axios("https://jsonplaceholder.typicode.com/posts?userId=" + userId);
+        const {data} = await axios("https://jsonplaceholder.typicode.com/posts?id=" + userId);
         resolve(data);
     });
 };
@@ -20,7 +20,7 @@ async function getData(userId){
         const posts = await getPost(userId);
 
         user.posts = posts;
-        console.log(user)
+        return user;
     }
     catch(e){
         console.log(e);
